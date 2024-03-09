@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7514531840281439100
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 246516945324393625, guid: fcbaa3200fa94e04385e547cafefbc79, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 246516945324393625, guid: fcbaa3200fa94e04385e547cafefbc79, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 246516945324393625, guid: fcbaa3200fa94e04385e547cafefbc79, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 246516945324393625, guid: fcbaa3200fa94e04385e547cafefbc79, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 246516945324393625, guid: fcbaa3200fa94e04385e547cafefbc79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868722303357763698, guid: fcbaa3200fa94e04385e547cafefbc79, type: 3}
+      propertyPath: m_Name
+      value: Tile_RoadCorner180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312264148166938858, guid: fcbaa3200fa94e04385e547cafefbc79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312264148166938858, guid: fcbaa3200fa94e04385e547cafefbc79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312264148166938858, guid: fcbaa3200fa94e04385e547cafefbc79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fcbaa3200fa94e04385e547cafefbc79, type: 3}
