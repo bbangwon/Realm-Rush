@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4872746269111720479, guid: 092a2c128fcda3a41b208d8bb9f4e742, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1914359556155598831, guid: 092a2c128fcda3a41b208d8bb9f4e742, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
