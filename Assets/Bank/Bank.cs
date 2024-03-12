@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bank : MonoBehaviour
 {
@@ -24,5 +25,16 @@ public class Bank : MonoBehaviour
     {
         //실수로 음수를 출금하는 것을 방지하기 위해 절대값을 취함
         currentBalance -= Mathf.Abs(amount);
+
+        if(currentBalance < 0)
+        {
+            ReloadScene();
+        }
+    }
+
+    void ReloadScene()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.buildIndex);
     }
 }
