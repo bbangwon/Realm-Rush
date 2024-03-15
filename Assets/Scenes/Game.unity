@@ -8792,7 +8792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f72fe05778cfe449a21ba55560b45cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 4, y: 3}
+  gridSize: {x: 5, y: 5}
 --- !u!1001 &773854233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21455,6 +21455,14 @@ PrefabInstance:
     - target: {fileID: 4905748038391439336, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
       propertyPath: m_Name
       value: ObjectPool
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
+      propertyPath: destinationCoordinates.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
+      propertyPath: destinationCoordinates.y
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
       propertyPath: currentSearchNode.coordinates.x
