@@ -21456,9 +21456,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: ObjectPool
       objectReference: {fileID: 0}
-    - target: {fileID: 6297566332233657709, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
-      propertyPath: spawnTimer
-      value: 2.5
+    - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
+      propertyPath: currentSearchNode.coordinates.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
+      propertyPath: currentSearchNode.coordinates.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8914419219658879045, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
       propertyPath: m_LocalPosition.x
