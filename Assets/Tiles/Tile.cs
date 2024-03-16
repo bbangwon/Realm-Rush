@@ -16,12 +16,9 @@ public class Tile : MonoBehaviour
     {
         gridManager = FindObjectOfType<GridManager>();
         pathfinder = FindObjectOfType<Pathfinder>();
-    }
 
-    void Start()
-    {
         if (gridManager != null)
-        {            
+        {
             coordinates = gridManager.GetCoordinatesFromPosition(transform.position);
             if (!isPlaceable)
             {
