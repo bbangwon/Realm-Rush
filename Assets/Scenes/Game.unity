@@ -23045,7 +23045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6297566332233657709, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
       propertyPath: poolSize
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
       propertyPath: startCoordinates.x
@@ -23174,7 +23174,7 @@ PrefabInstance:
       objectReference: {fileID: 1934201582}
     - target: {fileID: 7015526615812681842, guid: 4234e89e78914e8469ade65f9d83f860, type: 3}
       propertyPath: startingBalance
-      value: 0
+      value: 250
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
