@@ -21457,12 +21457,20 @@ PrefabInstance:
       value: ObjectPool
       objectReference: {fileID: 0}
     - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
-      propertyPath: destinationCoordinates.x
+      propertyPath: startCoordinates.x
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
+      propertyPath: startCoordinates.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
+      propertyPath: destinationCoordinates.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
       propertyPath: destinationCoordinates.y
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8465709524921423310, guid: 44abc6356dfdb3b429f8f81acafc2bdd, type: 3}
       propertyPath: currentSearchNode.coordinates.x
