@@ -120,12 +120,17 @@ public class Pathfinder : MonoBehaviour
             List<Node> newPath = GetNewPath();
             grid[coordinates].isWalkable = previousState;
 
-            if(newPath.Count <= 1)
+            if (newPath.Count <= 1)
             {
                 GetNewPath();
                 return true;
             }
         }
         return false;
+    }
+
+    public void NotifyReceivers()
+    {
+        BroadcastMessage("RecalculatePath", SendMessageOptions.DontRequireReceiver);
     }
 }
