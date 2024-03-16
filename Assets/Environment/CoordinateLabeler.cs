@@ -26,7 +26,6 @@ public class CoordinateLabeler : MonoBehaviour
 
     void Update()
     {
-        label.enabled = true;
         //에디트 모드에서는 매번 값을 업데이트
         if (!Application.isPlaying)
         {
