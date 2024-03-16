@@ -53,7 +53,7 @@ public class Pathfinder : MonoBehaviour
             {
                 neighbor.connectedTo = currentSearchNode;
                 reached.Add(neighbor.coordinates, neighbor);
-                frontier.Enqueue(neighbor);                
+                frontier.Enqueue(neighbor);
             }
         }
     }

@@ -1,24 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TargetLocator : MonoBehaviour
 {
-    [SerializeField]
-    Transform weapon;
+    [SerializeField] Transform weapon;
 
-    [SerializeField]
-    ParticleSystem projectileParticles;
+    [SerializeField] ParticleSystem projectileParticles;
 
-    [SerializeField]
-    float range = 15f;
+    [SerializeField] float range = 15f;
 
     Transform target;
 
     void Update()
     {
         FindClosestTarget();
-        AimWeapon();        
+        AimWeapon();
     }
 
     void FindClosestTarget()
@@ -44,7 +39,7 @@ public class TargetLocator : MonoBehaviour
         float targetDistance = Vector3.Distance(transform.position, target.position);
         weapon.LookAt(target);
 
-        if(targetDistance < range)
+        if (targetDistance < range)
         {
             Attack(true);
         }

@@ -1,5 +1,5 @@
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
 [ExecuteAlways]
 [RequireComponent(typeof(TextMeshPro))]
@@ -40,7 +40,7 @@ public class CoordinateLabeler : MonoBehaviour
 
     void ToggleLabels()
     {
-        if(Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             label.enabled = !label.enabled;
         }
@@ -48,13 +48,13 @@ public class CoordinateLabeler : MonoBehaviour
 
     void SetLabelColor()
     {
-        if(gridManager == null) { return; }
+        if (gridManager == null) { return; }
 
         Node node = gridManager.GetNode(coordinates);
 
         if (node == null) { return; }
 
-        if(!node.isWalkable)
+        if (!node.isWalkable)
         {
             label.color = blockedColor;
         }
@@ -74,12 +74,12 @@ public class CoordinateLabeler : MonoBehaviour
 
     void DisplayCoordinates()
     {
-#if UNITY_EDITOR
-        coordinates.x = Mathf.RoundToInt(transform.parent.position.x / UnityEditor.EditorSnapSettings.move.x);
-        coordinates.y = Mathf.RoundToInt(transform.parent.position.z / UnityEditor.EditorSnapSettings.move.z);
+        if (gridManager == null) { return; }
+
+        coordinates.x = Mathf.RoundToInt(transform.parent.position.x / gridManager.UnityGridSize);
+        coordinates.y = Mathf.RoundToInt(transform.parent.position.z / gridManager.UnityGridSize);
 
         label.text = $"{coordinates.x},{coordinates.y}";
-#endif
     }
 
     void UpdateObjectName()

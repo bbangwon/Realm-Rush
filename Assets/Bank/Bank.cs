@@ -1,14 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
-using Unity.VisualScripting;
 
 public class Bank : MonoBehaviour
 {
     [SerializeField] int startingBalance = 150;
-    
     [SerializeField] int currentBalance;
     public int CurrentBalance => currentBalance;
 
